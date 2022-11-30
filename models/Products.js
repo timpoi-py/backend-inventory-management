@@ -7,7 +7,7 @@ const productsSchema = new mongoose.Schema(
       required: true,
     },
     size: {
-      type: Number,
+      type: String,
       required: true,
     },
     unit: {
@@ -15,6 +15,10 @@ const productsSchema = new mongoose.Schema(
       required: true,
     },
     type: {
+      type: String,
+      required: true,
+    },
+    brand: {
       type: String,
       required: true,
     },
